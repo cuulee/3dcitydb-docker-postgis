@@ -10,7 +10,7 @@ MAINTAINER Bruno Willenborg, Chair of Geoinformatics, Technical University of Mu
 # Setup 3DCityDB ##############################################################
 ENV POSTGIS_MAJOR 2.4
 ENV POSTGIS_VERSION 2.4.4+dfsg-1.pgdg90+1
-ARG citydb_version=3.3.1
+ARG citydb_version=3.2.0
 ENV CITYDBVERSION=${citydb_version}
 ARG citydb_name="citydb"
 ENV CITYDBNAME=${citydb_name}
